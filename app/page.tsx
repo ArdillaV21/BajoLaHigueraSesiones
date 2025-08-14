@@ -114,9 +114,9 @@ export default function BajolaHigueraWebsite() {
           <div className="grid lg:grid-cols-2 gap-20 items-start">
             <div className="relative">
               {/* Main photo */}
-              <div className="relative w-full max-w-md">
+              <div className="relative w-full max-w-md mt-12">
                 <Image
-                  src="/placeholder.svg?height=600&width=400&text=Hombre+sonriendo+camiseta+verde"
+                  src="/images/fotosection1.jpg"
                   alt="Instructor de meditación"
                   width={400}
                   height={600}
@@ -125,8 +125,8 @@ export default function BajolaHigueraWebsite() {
               </div>
             </div>
 
-            <div className="pt-8">
-              <div className="mb-8">
+            <div className="pt-4">
+              <div className="mb-4">
                 <a
                   href="#"
                   className="inline-flex items-center text-amber-600 hover:text-amber-700 text-sm font-medium"
@@ -136,7 +136,7 @@ export default function BajolaHigueraWebsite() {
                 </a>
               </div>
 
-              <h2 className="text-5xl font-light text-gray-800 mb-8 leading-tight">Redescubre tu paz interior</h2>
+              <h2 className="text-5xl font-light text-gray-800 mb-4 leading-tight">Redescubre tu paz interior</h2>
 
               <p className="text-gray-600 leading-relaxed mb-6 text-lg">
                 La mente no siempre es un buen lugar para vivir. Entre la ansiedad, las dudas y el constante ir y venir
@@ -144,10 +144,7 @@ export default function BajolaHigueraWebsite() {
                 meditación es un camino para despejar el ruido y reencontrarte contigo mismo.
               </p>
 
-              {/* Small diamond separator */}
-              <div className="flex justify-start mb-8">
-                <span className="text-amber-500 text-sm">✦</span>
-              </div>
+            
 
               {/* Benefits box */}
               <div className="bg-gray-50 rounded-3xl p-8 border border-gray-100 shadow-sm mb-8">
@@ -274,10 +271,10 @@ export default function BajolaHigueraWebsite() {
           <Card className="bg-gray-800 border-none rounded-3xl p-6 relative overflow-hidden">
             <div className="absolute inset-0">
               <Image
-                src="/placeholder.svg?height=200&width=400&text=Personas+meditando"
+                src="/images/fondocontact.jpeg"
                 alt="Personas meditando"
                 fill
-                className="object-cover opacity-60"
+                className="object-cover opacity-30"
               />
             </div>
             <CardContent className="p-0 relative z-10">
