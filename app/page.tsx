@@ -26,7 +26,7 @@ export default function BajolaHigueraWebsite() {
     <div className="min-h-screen bg-gray-100">
       {/* Hero Section with rounded container */}
       <section className="pt-8 pb-12">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto">
           <div className="relative rounded-3xl overflow-hidden h-[600px] md:h-[700px]">
             {/* Background Image */}
             <div className="absolute inset-0">
@@ -62,7 +62,7 @@ export default function BajolaHigueraWebsite() {
               </div>
 
               {/* Hero Content */}
-            <div className="relative z-20 flex items-center justify-center h-full text-white px-8">
+            <div className="relative z-20 flex items-center justify-center h-full text-white">
               <div className="text-center max-w-4xl">
                 {/* Welcome text */}
                 <div className="flex items-center justify-center mb-8">
@@ -307,7 +307,7 @@ export default function BajolaHigueraWebsite() {
             {/* Left Image - Full height */}
             <div className="lg:col-span-1 flex">
               <Image
-                src="/placeholder.svg?height=600&width=400&text=Dos+mujeres+meditando"
+                src="/images/meditation1.png"
                 alt="Dos mujeres meditando juntas"
                 width={400}
                 height={600}
@@ -319,10 +319,10 @@ export default function BajolaHigueraWebsite() {
             <div className="lg:col-span-1 flex flex-col justify-between py-4">
               <div>
                 <div className="mb-6">
-                  <span className="text-amber-500 text-sm">✦ ¿Para Quién Es Este Espacio?</span>
+                  <span className="font-bold text-teal-900 text-sm">✦ ¿Para Quién Es Este Espacio?</span>
                 </div>
 
-                <h2 className="text-3xl font-bold text-gray-800 mb-12 leading-tight">
+                <h2 className="text-5xl font-bold text-gray-800 mb-12 leading-tight">
                   Sesiones de
                   <br />
                   meditación
@@ -335,8 +335,8 @@ export default function BajolaHigueraWebsite() {
               <div className="space-y-8 flex-grow flex flex-col justify-center">
                 {/* Individual Sessions */}
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 border-2 border-gray-300 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Calendar className="w-6 h-6 text-gray-600" />
+                  <div className="w-12 h-12 border-2 border-teal-900 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Calendar className="w-6 h-6 text-teal-900" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Sesiones individuales de 1 hora (virtual)</h4>
@@ -346,8 +346,8 @@ export default function BajolaHigueraWebsite() {
 
                 {/* Enfoque */}
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 border-2 border-gray-300 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Brain className="w-6 h-6 text-gray-600" />
+                  <div className="w-12 h-12 border-2 border-teal-900 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Brain className="w-6 h-6 text-teal-900" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Enfoque</h4>
@@ -359,8 +359,8 @@ export default function BajolaHigueraWebsite() {
 
                 {/* Metodología */}
                 <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 border-2 border-gray-300 rounded-xl flex items-center justify-center flex-shrink-0">
-                    <Headphones className="w-6 h-6 text-gray-600" />
+                  <div className="w-12 h-12 border-2 border-teal-900 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <Headphones className="w-6 h-6 text-teal-900" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Metodología</h4>
@@ -386,7 +386,7 @@ export default function BajolaHigueraWebsite() {
               {/* Bottom Image */}
               <div className="mt-8 flex-shrink-0">
                 <Image
-                  src="/placeholder.svg?height=280&width=400&text=Personas+relajándose"
+                  src="/images/meditation2.png"
                   alt="Personas en sesión de relajación"
                   width={400}
                   height={280}
@@ -402,7 +402,7 @@ export default function BajolaHigueraWebsite() {
       {/* Metodología - New Design */}
       <section id="metodologia" className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="bg-emerald-800 text-white rounded-3xl p-12 relative overflow-hidden">
+          <div className="bg-teal-900 text-white rounded-3xl p-12 relative overflow-hidden">
             {/* Top section with title and description */}
             <div className="grid lg:grid-cols-2 gap-12 mb-12">
               {/* Left - Title */}
@@ -410,7 +410,7 @@ export default function BajolaHigueraWebsite() {
                 <div className="mb-6">
                   <div className="flex items-center mb-6">
                     <span className="text-amber-400 mr-2">✦</span>
-                    <span className="text-amber-200 text-sm">Los Núcleos Del Acompañamiento</span>
+                    <span className="font-bold text-amber-200 text-sm">Los Núcleos Del Acompañamiento</span>
                   </div>
                   <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
                     Un enfoque integral para
@@ -478,7 +478,7 @@ export default function BajolaHigueraWebsite() {
               <div className="flex justify-center items-stretch">
                 <div className="relative w-full max-w-sm">
                   <Image
-                    src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iwofuRmmn5WeJPPxgSovLzMGyFY5e6.png"
+                    src="/images/Joaquinsentado.png"
                     alt="Persona meditando en sala moderna"
                     width={350}
                     height={800}
@@ -491,12 +491,12 @@ export default function BajolaHigueraWebsite() {
               <div className="space-y-16 flex flex-col justify-between">
                 {/* Compasión */}
                 <div>
-                  <div className="w-16 h-16 border-2 border-amber-400/30 rounded-full flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 border-2 border-white/50 rounded-full flex items-center justify-center mb-6">
                     <div className="grid grid-cols-2 gap-1">
-                      <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
-                      <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
-                      <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
-                      <div className="w-2 h-2 bg-amber-400 rounded-full"></div>
+                      <div className="w-2 h-2 bg-white rounded-full"></div>
+                      <div className="w-2 h-2 bg-white rounded-full"></div>
+                      <div className="w-2 h-2 bg-white rounded-full"></div>
+                      <div className="w-2 h-2 bg-white rounded-full"></div>
                     </div>
                   </div>
                   <h4 className="text-xl font-medium mb-4">Compasión</h4>
@@ -535,7 +535,7 @@ export default function BajolaHigueraWebsite() {
           <div className="mb-12">
             <div className="flex items-center mb-6">
               <span className="text-amber-500 mr-2">✦</span>
-              <span className="text-amber-600 text-sm font-medium">Tu Camino Hacia El Bienestar</span>
+              <span className="text-teal-900 text-sm font-bold">Tu Camino Hacia El Bienestar</span>
             </div>
 
             <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -563,11 +563,11 @@ export default function BajolaHigueraWebsite() {
           <div className="relative">
             <div className="relative rounded-3xl overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-M3DM9xeGNRdemHBryJmN968sbXSUoP.png"
+                src="images/JoaquinConGente.png"
                 alt="Grupo de personas en clase de bienestar"
-                width={1200}
+                width={800}
                 height={600}
-                className="w-full h-[600px] object-cover"
+                className="w-[800px] h-[600px] object-cover"
               />
 
               {/* Overlay cards */}
@@ -582,7 +582,7 @@ export default function BajolaHigueraWebsite() {
                     </p>
                     <a
                       href="#"
-                      className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+                      className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-bold text-sm"
                     >
                       Comienza Ahora
                       <ArrowRight className="w-4 h-4 ml-2" />
@@ -600,7 +600,7 @@ export default function BajolaHigueraWebsite() {
                     </p>
                     <a
                       href="#"
-                      className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-medium text-sm"
+                      className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-bold text-sm"
                     >
                       Únete A Las Clases
                       <ArrowRight className="w-4 h-4 ml-2" />
@@ -614,199 +614,11 @@ export default function BajolaHigueraWebsite() {
       </section>
 
       {/* Historias Section - New Design */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="relative rounded-3xl overflow-hidden h-[700px]">
-            {/* Background Image */}
-            <div className="absolute inset-0">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-8jNEmQ3KITzQO98qFDxvqcmk9e1Smm.png"
-                alt="Persona meditando al atardecer junto al agua"
-                fill
-                className="object-cover"
-              />
-              <div className="absolute inset-0 bg-black/20"></div>
-            </div>
-
-            {/* Content */}
-            <div className="relative z-10 h-full flex flex-col justify-between p-12">
-              {/* Top Content */}
-              <div className="grid lg:grid-cols-2 gap-12 items-start">
-                {/* Left side - Text content */}
-                <div className="text-white">
-                  <div className="mb-8">
-                    <div className="flex items-center mb-6">
-                      <span className="text-amber-400 mr-2">✦</span>
-                      <span className="text-amber-200 text-sm">Mira Nuestro Video</span>
-                    </div>
-
-                    <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
-                      Historias de
-                      <br />
-                      transformación a través
-                      <br />
-                      del bienestar
-                    </h2>
-
-                    <p className="text-white/90 leading-relaxed text-lg mb-8 max-w-lg">
-                      Descubre historias inspiradoras de transformación y crecimiento personal a través de nuestros
-                      videos de bienestar. Muestra cómo las clases online pueden cambiar tu vida hacia un camino más
-                      saludable y feliz.
-                    </p>
-
-                    <Button className="bg-amber-500 hover:bg-amber-600 text-black font-medium px-8 py-3 rounded-full">
-                      Ver Más En Instagram
-                    </Button>
-                  </div>
-                </div>
-
-                {/* Right side - Circular logo */}
-                <div className="flex justify-center lg:justify-end">
-                  <div className="relative">
-                    <div className="w-32 h-32 border-2 border-amber-400/30 rounded-full flex items-center justify-center">
-                      <div className="w-24 h-24 bg-amber-400 rounded-full flex items-center justify-center">
-                        <div className="text-center">
-                          <div className="text-black font-bold text-xs leading-tight">Bajo</div>
-                          <div className="text-black font-light text-xs leading-tight">la Higuera</div>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Decorative text around circle */}
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <svg className="w-40 h-40 -rotate-12" viewBox="0 0 160 160">
-                        <defs>
-                          <path id="circle" d="M 80, 80 m -60, 0 a 60,60 0 1,1 120,0 a 60,60 0 1,1 -120,0" />
-                        </defs>
-                        <text className="text-xs fill-white/70 font-light">
-                          <textPath href="#circle">• Bajo la Higuera • Transformación • Bienestar •</textPath>
-                        </text>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Bottom Statistics */}
-              <div className="grid md:grid-cols-4 gap-8 text-white">
-                <div>
-                  <div className="text-4xl font-bold text-amber-400 mb-2">10+</div>
-                  <p className="text-white/80 text-sm">Años de experiencia</p>
-                </div>
-                <div>
-                  <div className="text-4xl font-bold text-amber-400 mb-2">150+</div>
-                  <p className="text-white/80 text-sm">Horas de coaching personalizado</p>
-                </div>
-                <div>
-                  <div className="text-4xl font-bold text-amber-400 mb-2">200+</div>
-                  <p className="text-white/80 text-sm">Sesiones completadas con éxito</p>
-                </div>
-                <div>
-                  <div className="text-4xl font-bold text-amber-400 mb-2">3K+</div>
-                  <p className="text-white/80 text-sm">Alumnos satisfechos</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Guía paso a paso - New Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <div className="bg-emerald-800 text-white rounded-3xl p-12 relative overflow-hidden">
-            {/* Top section */}
-            <div className="grid lg:grid-cols-2 gap-12 mb-16">
-              {/* Left - Title */}
-              <div>
-                <div className="flex items-center mb-6">
-                  <span className="text-amber-400 mr-2">✦</span>
-                  <span className="text-amber-200 text-sm">¿Cómo Funciona?</span>
-                </div>
-                <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-                  Guía paso a paso para
-                  <br />
-                  agendar tu sesión
-                </h2>
-              </div>
-
-              {/* Right - Description */}
-              <div className="flex items-center">
-                <p className="text-emerald-100 leading-relaxed">
-                  Agendar una sesión de meditación contemplativa nunca ha sido tan fácil. Te guiamos paso a paso para
-                  que disfrutes de una experiencia profunda y transformadora.
-                </p>
-              </div>
-            </div>
-
-            {/* Steps */}
-            <div className="grid md:grid-cols-4 gap-8 mb-16">
-              {/* Step 1 */}
-              <div className="text-center">
-                <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <FileText className="w-8 h-8 text-white" />
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center">
-                    <span className="text-black text-xs font-bold">1</span>
-                  </div>
-                </div>
-                <h4 className="font-semibold mb-3">Llena El Formulario</h4>
-                <p className="text-emerald-100 text-sm leading-relaxed">
-                  Completa tus datos y selecciona el día y la hora para tu sesión de meditación.
-                </p>
-              </div>
-
-              {/* Step 2 */}
-              <div className="text-center">
-                <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <MessageCircle className="w-8 h-8 text-white" />
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center">
-                    <span className="text-black text-xs font-bold">2</span>
-                  </div>
-                </div>
-                <h4 className="font-semibold mb-3">Recibe Confirmación</h4>
-                <p className="text-emerald-100 text-sm leading-relaxed">
-                  Recibirás un correo electrónico con los detalles de tu sesión y una confirmación por WhatsApp.
-                </p>
-              </div>
-
-              {/* Step 3 */}
-              <div className="text-center">
-                <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <CheckCircle className="w-8 h-8 text-white" />
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center">
-                    <span className="text-black text-xs font-bold">3</span>
-                  </div>
-                </div>
-                <h4 className="font-semibold mb-3">Prepárate Para La Sesión</h4>
-                <p className="text-emerald-100 text-sm leading-relaxed">
-                  El día de la sesión, asegúrate de estar en un entorno tranquilo para maximizar tu experiencia de
-                  meditación virtual.
-                </p>
-              </div>
-
-              {/* Step 4 */}
-              <div className="text-center">
-                <div className="relative mb-6">
-                  <div className="w-16 h-16 bg-emerald-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <Heart className="w-8 h-8 text-white" />
-                  </div>
-                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-amber-400 rounded-full flex items-center justify-center">
-                    <span className="text-black text-xs font-bold">4</span>
-                  </div>
-                </div>
-                <h4 className="font-semibold mb-3">Disfruta La Meditación</h4>
-                <p className="text-emerald-100 text-sm leading-relaxed">
-                  Durante la sesión, sumérgete en una práctica de meditación contemplativa para encontrar calma y
-                  claridad mental.
-                </p>
-              </div>
-            </div>
-          </div>
 
           {/* Bottom section - Booking form */}
           <div className="bg-white rounded-3xl p-12 -mt-8 relative z-10 shadow-lg">
@@ -856,72 +668,7 @@ export default function BajolaHigueraWebsite() {
         </div>
       </section>
 
-      {/* Agenda */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-4xl font-light text-gray-800 mb-8">Agenda</h2>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                ¿Listo para comenzar tu viaje hacia el bienestar? Agenda tu primera sesión y descubre cómo la meditación
-                puede transformar tu vida de manera positiva.
-              </p>
-              <div className="flex items-center space-x-4 mb-8">
-                <Image
-                  src="/placeholder.svg?height=60&width=60"
-                  alt="Instructor 1"
-                  width={60}
-                  height={60}
-                  className="rounded-full object-cover"
-                />
-                <Image
-                  src="/placeholder.svg?height=60&width=60"
-                  alt="Instructor 2"
-                  width={60}
-                  height={60}
-                  className="rounded-full object-cover"
-                />
-                <Image
-                  src="/placeholder.svg?height=60&width=60"
-                  alt="Instructor 3"
-                  width={60}
-                  height={60}
-                  className="rounded-full object-cover"
-                />
-              </div>
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-full">
-                ¿Cómo empezamos?
-              </Button>
-            </div>
-            <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <h3 className="text-2xl font-medium mb-8 text-gray-800">Reserva tu sesión</h3>
-              <form className="space-y-5">
-                <div className="grid grid-cols-2 gap-4">
-                  <Input placeholder="Nombre" className="border-gray-200 rounded-lg py-3 px-4" />
-                  <Input placeholder="Apellido" className="border-gray-200 rounded-lg py-3 px-4" />
-                </div>
-                <Input placeholder="Email" type="email" className="border-gray-200 rounded-lg py-3 px-4" />
-                <Input placeholder="Teléfono" className="border-gray-200 rounded-lg py-3 px-4" />
-                <select className="w-full p-3 border border-gray-200 rounded-lg bg-white">
-                  <option>Tipo de sesión</option>
-                  <option>Individual</option>
-                  <option>Grupal</option>
-                  <option>Taller</option>
-                </select>
-                <Textarea
-                  placeholder="Cuéntanos sobre tus objetivos"
-                  rows={3}
-                  className="border-gray-200 rounded-lg py-3 px-4"
-                />
-                <Button className="w-full bg-amber-500 hover:bg-amber-600 text-black py-3 rounded-lg">
-                  Reservar sesión
-                </Button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* Consultas - Functional Accordion FAQ */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">

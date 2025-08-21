@@ -2,9 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'Sesiones Bajo La Higuera',
+  description: 'Es un espacio de meditación y bienestar',
 }
 
 export default function RootLayout({
