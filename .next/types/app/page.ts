@@ -1,4 +1,4 @@
-// File: /home/cr/Escritorio/BajoLaHigueraSesiones/app/page.tsx
+// File: /home/federico-valle/Escritorio/BajoLaHigueraSesiones/app/page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

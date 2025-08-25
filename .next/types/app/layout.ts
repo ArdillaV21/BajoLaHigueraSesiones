@@ -1,4 +1,4 @@
-// File: /home/cr/Escritorio/BajoLaHigueraSesiones/app/layout.tsx
+// File: /home/federico-valle/Escritorio/BajoLaHigueraSesiones/app/layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Sesiones Bajo La Higuera',
   description: 'Es un espacio de meditación y bienestar',
+  icons: {
+    icon: '/favicon.png',
+  },
 }
 
 export default function RootLayout({
