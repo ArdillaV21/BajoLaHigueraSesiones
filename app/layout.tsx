@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { MetaPixel } from '@/lib/meta-pixel'
+import { Suspense } from 'react'
 
 export const metadata: Metadata = {
   title: 'Sesiones Bajo La Higuera',
@@ -18,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <MetaPixel />
+        <Suspense fallback={null}>
+          <MetaPixel />
+        </Suspense>
         {children}
       </body>
     </html>
